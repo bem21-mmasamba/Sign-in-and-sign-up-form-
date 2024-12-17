@@ -1,0 +1,270 @@
+*{
+	
+  margin:0;
+  padding:0;
+  font-family: 'poppins', sans-serif;
+}
+h1 {
+	text-align: center;
+	justify-content:center;
+	align-items: center-left;
+	font-size: 17px;
+}
+ 
+.banner {
+	width:100;
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{ 
+   width:90px;
+   cursor: pointer;
+}
+.navbar ul li{
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	display: inline-table;
+	margin: 0 20px;
+	position: relative;
+	font-size: 10px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #0096FF;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width:100%;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/reg.jpg);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form-box{
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 700px;
+	height:420px;
+	overflow: hidden;
+	z-index: 2;
+}
+.wrapper {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	width:750px;
+	background: rbga(255, 255, 255, .1);
+	border: 2px solid white;
+	box-shadow: 0 0 10px rbga(255, 255, 255, .2);
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	color: #fff;
+	flex-direction: column;
+	padding: 55px 10px 55px 95px;
+	margin-left: 200px;
+	margin-bottom: -100px;
+}
+.wrapper h1{
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: -65px;
+}
+.wrapper .input-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.input-box .input-field {
+	position: relative;
+	width: 45%;
+	margin: 10px 13px;
+	justify-content: space-between;
+}
+
+.input-box .input-field input {
+	width:100%;
+	height:10%;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .2);
+	outline: none;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 6px;
+	padding: 10px 10px 15px 40px;
+}
+.input-box .input-field input::placeholder{
+	color: #fff;
+}
+.input-box .input-field i {
+	position: absolute;
+	left: 15px;
+	top: 10%;
+	transform: translateY(-50);
+	font-size: 20px;
+}
+
+.wrapper label{
+	display: inline-table;
+	font-size: 14.5px;
+	margin: 10px 0 23px;
+	margin-left: 20px;
+}
+.wrapper label input{
+	accent-color: #fff;
+	margin-right: 5px;
+}
+
+.wrapper .btn{
+	width:40.5%;
+	height:45px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+	margin-left: 200px;
+}
+
+.wrapper label a{
+	text-align: center;
+}
+
+.wrapper p{
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: 250px;
+}
+
+.Login {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	width:500px;
+	background: rbga(255, 255, 255, .1);
+	border: 2px solid white;
+	box-shadow: 0 0 10px rbga(255, 255, 255, .2);
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	color: #fff;
+	flex-direction: column;
+	padding: 55px 10px 55px 95px;
+	margin-left: 400px;
+	margin-bottom: -100px;
+}
+
+.Login label input{
+	accent-color: #fff;
+	margin-right: 5px;
+}
+
+.Login .btn{
+	width:50.5%;
+	height:45px;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+	margin-left: 100px;
+}
+.Login h1{
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: -65px;
+}
+.Login .input-box {
+	display: inline-table;
+	flex-wrap: wrap;
+}
+.Login .input-box .input-field input {
+	width:200%;
+	height:10%;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .2);
+	outline: none;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 6px;
+	padding: -50px 50px 15px 50px;
+	margin-left: -50px;
+	margin-right: 400px;
+}
+.Login p{
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: 125px;
+}
+
+
+/*--------footer------*/
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+}
+.footer p{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+}
+.footer h5{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.footer .last{
+	font-size: 7px;
+}
+.icons .bx{
+	color: #7DF9FF;
+	margin: 0 4px;
+	cursor: pointer;
+	padding:18px 0;
+}
